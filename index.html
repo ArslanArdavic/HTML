@@ -1,9 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!--- Order of override dominance from weak to strong:
+        Internal, External, Inline--->
+
+    <head>
+        <!---Internal CSS-->
+        <style>
+            h1 {font-family:serif;}
+        </style>
+        <!---External CSS-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
     <body>
-    
-        <h1>Heading of type h1</h1>
-        <p>First paragraph statement is this.</p>
+        <!---Inline CSS-->
+        <h1 style="text-align:center;">Hello Web!</h1>
+        <p>
+            First paragraph statement is this: Use the line break element br = \n.<br>
+            <a href="https://en.wikipedia.org/wiki/Web_page">What is a web page?</a><br>
+            <img src="media/images/Web_Page.png" width="525" height="312">brNotFound<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Web_Page.png"><br>
+            
+            <p style="color:blue; font-size:1em; margin-left:1em">
+                |nested p element with attribute: 
+                style="color:blue; font-size:1em; margin-left:1em"
+            </p>
+            <p style="color:blue; font-size:1em; margin-left:26px">
+                |nested p element with attribute: 
+                style="color:blue; font-size:1em; margin-left:26px"
+            </p>
+            <p style="color:blueviolet; font-size:100%; margin-left:58px">
+                | nested p element with attribute: 
+                style="color:blueviolet; font-size:100%; margin-left:58px"
+            </p>
+            ____| Lines align nearly perfect iff the string "_" concatenated four times is of lenght 58 pixels (1em = 1 default pixel size).<br>
+            <p title="P with Title">nested p element with attribute: title="P with Title"</p>
+        </p>
+
+        <p style="border: 1px solid black">
+            A <strong>web page</strong> (or <em>webpage</em>) is a <small>hypertext document</small> on the 
+            <sub> World</sub> Wide <sup> Web</sup>.
+            Web pages are delivered by a <mark><del> web server </del></mark> to the user and displayed in a web browser.
+            A website consists of many web pages linked together under a common domain name.
+            The name "web page" is a metaphor of paper pages bound together into a book.
+        </p>
+        <h1>Heading of type h1 </h1>
+        <h1 style="font-size:2em">Heading of type h1 style="font-size:2em"</h1>
+        <h2>Heading of type h2</h2>
+        <h2 style="font-size:1.5em">Heading of type h2 style="font-size:1.5em"</h2>
+        <h3>Heading of type h3</h3>
+        <h3 style="font-size:1.17em">Heading of type h3 style="font-size:1.17em"</h3>
+        <h4>Heading of type h4</h4>
+        <h4 style="font-size:1em">Heading of type h4 style="font-size:1em"</h4>
+        <h5>Heading of type h5</h5>
+        <h5 style="font-size:0.83em">Heading of type h5 style="font-size:0.83em"</h5>
+        <h6>Heading of type h6</h6>
+        <h6 style="font-size:0.67em">Heading of type h6 style="font-size:0.67em"</h6>
 
     </body>
 </html>
