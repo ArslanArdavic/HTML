@@ -1,8 +1,5 @@
 # HTML
-Materials from 
-https://www.w3schools.com/html/default.asp
 -----
-
 ## Reach content of index.html
 &emsp; file://{locationOf(index.html)} 
 
@@ -17,4 +14,6 @@ ENDIF;
   &emsp; 
 \'\\' = &%5C
 ---
+References & Materials 
+https://www.w3schools.com/html/default.asp
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
