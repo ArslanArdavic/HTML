@@ -1,4 +1,4 @@
-&emsp;HTML;
+
 -----
 ## Reach content of index.html
 &emsp; file://{locationOf(index.html)} 
@@ -11,5 +11,5 @@
 -----
 ### References || Materials <br/>
 '\\' = &%5C <br/>
-https://www.w3schools.com/html/default.asp <br/>
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ <br/>
+&emsp;https://www.w3schools.com/html/default.asp <br/>
+&emsp;https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ <br/>
