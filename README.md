@@ -6,6 +6,7 @@ https://www.w3schools.com/html/default.asp
 Can be used in any web browser to reach the content
 
 ## locationOf(anyFileName.anyExtension)
+-----
 ### File in current directory
 IF outputOf(./index.html) != No such file or directory <br />
 &emsp; locationOf(index.html) = pwd <br/>
