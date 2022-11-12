@@ -1,4 +1,3 @@
-HTML
 -----
 ## Reach content of index.html
 &emsp; file://{locationOf(index.html)} 
@@ -7,7 +6,6 @@ HTML
 &emsp;IF outputOf(./index.html) != No such file or directory <br/>
 &emsp;&emsp; locationOf(index.html) = pwd <br/>
 &emsp;ENDIF;
-
 -----
 ### References || Materials <br/>
 '\\' = &%5C <br/>
