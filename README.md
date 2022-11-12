@@ -1,15 +1,19 @@
 # HTML
 Materials from 
 https://www.w3schools.com/html/default.asp
-# file://{locationOf(index.html)} 
-can be used in any web browser to reach the content
+## Reach content of index.html
+### file://{locationOf(index.html)} 
+Can be used in any web browser to reach the content
 
-# locationOf(anyFileName.anyExtension)
-## File in current directory
+## locationOf(anyFileName.anyExtension)
+### File in current directory
 IF outputOf(./index.html) != No such file or directory <br />
-  locationOf(index.html) = pwd <br/>
+&emsp; locationOf(index.html) = pwd <br/>
 ENDIF;
-##File in somewhere 
+
+## File somewhere else 
   
-# '\\' encoding or support may differ among browsers
+  
+# Notes  
+### '\\' encoding or support may differ among browsers
 \'\\' = &%5C
