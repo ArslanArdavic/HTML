@@ -5,9 +5,9 @@ https://www.w3schools.com/html/default.asp
 can be used in any web browser to reach the content
 
 # locationOf(anyFileName.anyExtension)
-##File in current directory
-IF outputOf(./index.html) != No such file or directory
-  locationOf(index.html) = pwd
+## File in current directory
+IF outputOf(./index.html) != No such file or directory <br />
+  locationOf(index.html) = pwd <br/>
 ENDIF;
 ##File in somewhere 
   
