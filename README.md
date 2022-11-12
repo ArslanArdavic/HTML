@@ -6,9 +6,9 @@
 &emsp;&emsp; locationOf(index.html) = pwd <br/>
 &emsp;ENDIF;
 
-##### Encoding or support may differ among browsers
-##### &emsp; '\\' = &%5C
+### Encoding or support may differ among browsers <br/>
+&emsp; '\\' = &%5C
 -----
-##### References & Materials <br/>
+### References & Materials <br/>
 https://www.w3schools.com/html/default.asp <br/>
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ <br/>
