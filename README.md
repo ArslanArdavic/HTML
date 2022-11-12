@@ -2,14 +2,12 @@
 &emsp; file://{locationOf(index.html)} 
 
 ## File in current directory
-IF outputOf(./index.html) != No such file or directory <br/>
-&emsp; locationOf(index.html) = pwd <br/>
-ENDIF;
-
+&emsp;IF outputOf(./index.html) != No such file or directory <br/>
+&emsp;&emsp; locationOf(index.html) = pwd <br/>
+&emsp;ENDIF;
 
 ##### Encoding or support may differ among browsers
-  &emsp; 
-##### '\\' = &%5C
+##### &emsp; '\\' = &%5C
 -----
 ##### References & Materials <br/>
 https://www.w3schools.com/html/default.asp <br/>
