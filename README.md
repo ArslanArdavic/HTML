@@ -1,8 +1,3 @@
-#foo {color: red}
-<p>foo</p>
-
-
-# HTML
 ## Reach content of index.html
 &emsp; file://{locationOf(index.html)} 
 
